@@ -1,4 +1,4 @@
-export const CLIENT_ID="90b988b203dd4b0f9a9095e18906016f";
+export const CLIENT_ID="";
 export const SPOTIFY_AUTH_ENDPOINT="https://accounts.spotify.com/authorize";
 export const REDIRECT_URL_POST_LOGIN="http://127.0.0.1:5500/PostLogin.html";
 export const SPACE_DELIMITER = "%20";

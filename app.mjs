@@ -7,7 +7,7 @@ REDIRECT_URL_POST_LOGIN=require('./secret.js');
 SCOPES_URL_PARAM=require('./secret.js');
 
 
-// const CLIENT_ID="90b988b203dd4b0f9a9095e18906016f";
+// const CLIENT_ID="";
 // const SPOTIFY_AUTH_ENDPOINT="https://accounts.spotify.com/authorize";
 // const REDIRECT_URL_POST_LOGIN="http://127.0.0.1:5500/PostLogin.html";
 // const SPACE_DELIMITER = "%20";
@@ -45,7 +45,7 @@ function WebApp(){
   
         localStorage.setItem("accessToken", access_token);
         localStorage.setItem("tokenType", token_type);
-        localStorage.setItem("expiresIn", expires_in);
+        localStorage.setItem("p", expires_in);
       }
     };
 
